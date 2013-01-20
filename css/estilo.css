@@ -17,18 +17,29 @@
 
 /* Secciones */
 
+/* Wrapper */
 .main-content{
-	
+
 }
 
+/* Nosotros */
 .main-info{
-	
+	height: 530px;
+	background: rgba(93,93,195,0.85);
 }
-
+/* High Command */
 .main-highcommand{
-	
+	height: 530px;
+	background: rgba(78,208,137,0.85);
+}
+/* Comites */
+.main-comites{
+	height: 700px;
+	background: rgba(162,172,54,0.85);
 }
 
-.main-comites{
-	
+/* Contacto */
+.main-contacto{
+	height: 330px;
+	background: rgba(191,112,52,0.85);
 }
