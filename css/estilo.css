@@ -27,14 +27,28 @@ width: 900px;
 margin: 0px auto;
 }
 
-.logo{
-	
+.img-logo:hover{
+background: #f0f0f0;
+background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(63,71,77,0.14)), color-stop(100%, rgba(255,255,255,0)));
+background: -webkit-linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 100%);
+background: -moz-linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 100%);
+background: -o-linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 100%);
+-pie-background: linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 100%);
+background: linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 100%);
 }
 
 .img-logo{
 float: left;
-width: 150px;
+width: 120px;
 height: 110px;
+padding: 0px 10px 0px 10px;
+display: block;
+
+}
+
+.logo-nav{
+	display: block;
+
 }
 
 .main-nav ul{
@@ -92,6 +106,7 @@ background: -moz-linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 100%
 background: -o-linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 100%);
 -pie-background: linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 100%);
 background: linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 100%);
+
 }
 
 .main-nav ul li:active{
@@ -102,6 +117,11 @@ background: -moz-linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 90%)
 background: -o-linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 90%);
 -pie-background: linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 90%);
 background: linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 90%);
+  
+box-shadow:inset 1px 3px 13px 4px #c0bfbf;
+-webkit-box-shadow:inset 1px 3px 13px 4px #c0bfbf;
+   -moz-box-shadow: inset 1px 3px 13px 4px #c0bfbf;
+
 }
 /* Secciones Main */
 
