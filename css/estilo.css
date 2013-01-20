@@ -1,6 +1,12 @@
+body{
+	margin: 0px;
+}
+
 /* Navegación */
 .main-header{
-	
+	height: 180px;
+	background: rgba(232,47,59,0.85);
+
 }
 
 .main-nav{
