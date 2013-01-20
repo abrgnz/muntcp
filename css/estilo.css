@@ -23,6 +23,8 @@ height: 110px;
 }
 
 .main-nav{
+width: 900px;
+margin: 0px auto;
 }
 
 .logo{
@@ -36,10 +38,26 @@ height: 110px;
 }
 
 .main-nav ul{
-	margin: 0;
+	margin: 0 ;
 padding: 0;
 border: 0;
 overflow: hidden;
+
+width: 740px;
+
+-webkit-margin-before: 0px;
+-webkit-margin-after: 0px;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+list-style: none;
+font: inherit;
+font-size: 100%;
+vertical-align: baseline;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+font-size:0; 
+
 }
 .main-nav ul li{
 width: 180px;
@@ -50,8 +68,10 @@ margin-left: 0;
 display: -moz-inline-stack;
 display: inline-block;
 vertical-align: middle;
-zoom: 1;
 white-space: nowrap;
+background: url('../img/sep.png') no-repeat;
+font-size:14px; 
+
 }
 .main-nav ul li a{
 display: block;
@@ -59,9 +79,11 @@ position: relative;
 text-align: center;
 height: 110px;
 padding: 73px 0 0;
-font-size: 13px;
-color: #A7A982;
+font-size: 14px;
+color: #331FA1;
+text-decoration: none;
 }
+
 .main-nav ul li a:hover{
 background: #f0f0f0;
 background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(63,71,77,0.14)), color-stop(100%, rgba(255,255,255,0)));
@@ -72,7 +94,15 @@ background: -o-linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 100%);
 background: linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 100%);
 }
 
-
+.main-nav ul li:active{
+background: #f0f0f0;
+background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(63,71,77,0.14)), color-stop(90%, rgba(255,255,255,0)));
+background: -webkit-linear-gradient(rgba(62,70,76,0.14) 0%, rgba(255,255,255,0) 90%);
+background: -moz-linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 90%);
+background: -o-linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 90%);
+-pie-background: linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 90%);
+background: linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 90%);
+}
 /* Secciones Main */
 
 /* Wrapper */
