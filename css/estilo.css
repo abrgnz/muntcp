@@ -118,9 +118,9 @@ background: -o-linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 90%);
 -pie-background: linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 90%);
 background: linear-gradient(rgba(63,71,77,0.14) 0%,rgba(255,255,255,0) 90%);
   
-box-shadow:inset 1px 3px 13px 4px #c0bfbf;
--webkit-box-shadow:inset 1px 3px 13px 4px #c0bfbf;
-   -moz-box-shadow: inset 1px 3px 13px 4px #c0bfbf;
+box-shadow:inset 1px 3px 13px 2px #c0bfbf;
+-webkit-box-shadow:inset 1px 3px 13px 2px #c0bfbf;
+   -moz-box-shadow: inset 1px 3px 13px 2px #c0bfbf;
 
 }
 /* Secciones Main */
