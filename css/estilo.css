@@ -4,7 +4,7 @@ body{
 
 /* Navegación */
 .main-header{
-	height: 180px;
+	height: 110px;
 	background: rgba(232,47,59,0.85);
 
 }
@@ -46,6 +46,6 @@ body{
 
 /* Contacto */
 .main-contacto{
-	height: 330px;
+	height: 230px;
 	background: rgba(191,112,52,0.85);
 }
