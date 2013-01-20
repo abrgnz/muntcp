@@ -50,10 +50,29 @@
 	background-repeat: repeat;
 }
 
+
+.a-patrocinio{
+	margin: 0;
+	padding: 0;
+	opacity: 0;
+	background: url(../img/degradado2.png);
+	display:block;
+	height: 155px;
+	width: 300px;
+	position: absolute;
+}
+.a-patrocinio:hover{
+	opacity: 1;
+	display: block;
+}
+
+
 .img-patrocinio{
 	width: 150px;
 	height: 150px;
 }
+
+
 
 .patrocinio-caption{
 	text-align: center;
@@ -61,4 +80,6 @@
 	float:right;
 	display:inline;
 	width: 150px;
+	color:black;
 }
+
