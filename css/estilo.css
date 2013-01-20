@@ -7,11 +7,11 @@ body, html{
 .main-header{
 	height: 110px;
 	background: rgba(232,47,59,0.85);
-
+	margin: 0px auto;
+	text-align: center;
 }
 
 .main-nav{
-	
 }
 
 .logo{
