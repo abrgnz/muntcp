@@ -19,14 +19,26 @@ body, html{
 }
 
 .img-logo{
+	float:left;
 	width:25%;
 	height:25%;
 }
 
+.main-nav ul{
+	margin: 0;
+padding: 0;
+border: 0;
+overflow: hidden;
+}
 .main-nav ul li{
-width: 150px;
-height: 100px;
-list-style: none;
+list-style-image: none;
+list-style-type: none;
+margin-left: 0;
+display: -moz-inline-stack;
+display: inline-block;
+vertical-align: middle;
+zoom: 1;
+white-space: nowrap;
 
 	/* IE10 Consumer Preview */ 
 background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #C8CBCF 100%);
