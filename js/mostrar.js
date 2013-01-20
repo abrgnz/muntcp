@@ -16,3 +16,14 @@ function mostrar (caso)
 
 	
 }
+
+function show () 
+{
+	for(var i=1;i<=14;i++)
+	{
+			a = document.getElementById('comite'+i);
+			a.style.display= 'block';
+	}
+
+	
+}
