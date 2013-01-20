@@ -87,6 +87,7 @@ body, html{
 	list-style: none;
 	font-family: "Helvetica";
 	display: inline-block;
+	background: #1e1d1d
 }
 
 .descarga-topicos a{
@@ -132,8 +133,6 @@ body, html{
 }
 
 .comite:hover{
-	opacity:0;
-	position:absolute;
 }
 .topico{
 	float:left;
