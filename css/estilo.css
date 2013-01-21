@@ -14,10 +14,7 @@ background: -moz-linear-gradient(rgba(255,255,255,0.95) 0px,rgba(255,255,255,0.8
 background: -o-linear-gradient(rgba(255,255,255,0.95) 0px,rgba(255,255,255,0.85) 95px);
 -pie-background: linear-gradient(rgba(255,255,255,0.95) 0px,rgba(255,255,255,0.85) 95px);
 background: linear-gradient(rgba(255,255,255,0.95) 0px,rgba(255,255,255,0.85) 95px);
--webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.2);
--moz-box-shadow: 0 1px 4px rgba(0,0,0,0.2);
-box-shadow: 0 1px 4px rgba(0,0,0,0.2);
-border-bottom: 1px solid #fff;
+
 min-width: 1020px;
 height: 110px;
 }
@@ -197,13 +194,13 @@ position: absolute;
 }
 
 .descarga-topicos{
-	margin: 0 auto;
+	margin: 95px auto 0px;
 	padding: 0;
 	width: 904px;
 	list-style: none;
 	font-family: "Helvetica";
 	display: inline-block;
-	background: #1e1d1d
+	background: white;
 }
 
 .descarga-topicos a{
@@ -288,6 +285,12 @@ position: absolute;
 }
 
 .patrocinio-content{
+	width: 100%;
+	height:100%;
+	margin: 0 auto;
+}
+
+.agenda-content{
 	width: 100%;
 	height:100%;
 	margin: 0 auto;
