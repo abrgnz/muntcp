@@ -123,6 +123,19 @@ box-shadow:inset 1px 3px 13px 2px #c0bfbf;
    -moz-box-shadow: inset 1px 3px 13px 2px #c0bfbf;
 
 }
+
+
+.iconillo1{
+left: 65px;
+top: 32px;
+height: 35px;
+width: 40px;
+background: url('../img/iconos/HC.png') no-repeat;
+display: block;
+position: absolute;
+
+}
+
 /* Secciones Main */
 
 /* Wrapper */
