@@ -280,6 +280,12 @@ opacity: 1;
 	background: rgba(162,172,54,0.85);
 }
 
+.agenda{
+margin: 30px auto 0px;
+width: 170px;
+top: 20px;
+}
+
 
 .descarga-content{
 	width: 100%;
@@ -422,7 +428,7 @@ border-top: 0px solid #fff;
 
 .agenda-content{
 	width: 100%;
-	min-height: 700px;
+	min-height: 1500px;
 	height:100%;
 	margin: 0 auto;
 	background: url('../img/prueba1.png') repeat-x;
@@ -484,6 +490,17 @@ border-top: 0px solid #fff;
 
 .actividades{
 	list-style-type: none;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+.horario h3,p{
+ display: inline-block;
+ font-size: 15px;
+}
+.horario h3{
+ font-size: 11px;
 }
 
 .contenedoor{
