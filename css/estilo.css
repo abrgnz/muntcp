@@ -211,7 +211,13 @@ position: absolute;
 	width:452px;
 }
 
+.seleccionado-a:hover{
+	background: red;
+}
 
+.seleccionado-b:hover{
+	background: black;
+}
 
 .descarga-topicos li{
 	margin: 0px 1px 1px 0px;
@@ -286,7 +292,6 @@ position: absolute;
 
 .patrocinio-content{
 	width: 100%;
-	height:100%;
 	margin: 0 auto;
 }
 
