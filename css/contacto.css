@@ -46,40 +46,42 @@
 .figure-seccion{
 	margin: 0;
 	padding: 0;
-	background: url("../img/cross.png");
-	background-repeat: repeat;
+	display: block;
 }
 
 
-.a-patrocinio{
-	margin: 0;
-	padding: 0;
-	opacity: 0;
-	background: url(../img/degradado2.png);
-	display:block;
-	height: 155px;
-	width: 300px;
-	position: absolute;
-}
-.a-patrocinio:hover{
+
+
+.patrocinio-caption:hover{
 	opacity: 1;
 	display: block;
+	background: url(../img/degradado2.png);
+	color:white;
+	text-decoration: none;
 }
 
 
 .img-patrocinio{
 	width: 150px;
 	height: 150px;
+	display: block;
+	float:left;
+	margin: -94px 0px 0px -147px;
 }
+
 
 
 
 .patrocinio-caption{
-	text-align: center;
-	padding-top: 60px;
-	float:right;
-	display:inline;
 	width: 150px;
+	height: 75px;
+	padding-top: 75px;
+	text-align: center;
+	float:right;
 	color:black;
+		background: url("../img/cross.png");
+			text-decoration: none;
+
 }
+
 
