@@ -196,7 +196,7 @@ position: absolute;
 .descarga-topicos{
 	margin: 95px auto 0px;
 	padding: 0;
-	width: 904px;
+	width: 902px;
 	list-style: none;
 	font-family: "Helvetica";
 	display: inline-block;
@@ -216,11 +216,11 @@ position: absolute;
 }
 
 .seleccionado-b:hover{
-	background: black;
+	background: orange;
 }
 
 .descarga-topicos li{
-	margin: 0px 1px 1px 0px;
+	margin: 0;
 	width: 225px;
 	height:50px;
 	background:white;
@@ -229,7 +229,11 @@ position: absolute;
 	text-align: center;
 }
 
-
+.click {
+height: 50px;
+margin: 0;
+padding: 16px 0px 0px 0px;
+}
 .comite{
 	color:white;
 	position:absolute;
@@ -238,8 +242,8 @@ position: absolute;
 	text-align: center;
 	margin: 0;
 	height:50px;
-	width:452px;
-	background:#3b3a3a;
+	width:450px;
+	background:#240da9;
 	z-index: 1;
 }
 
@@ -258,7 +262,7 @@ position: absolute;
 	padding: 0;
 	margin: 0;
 	height:50px;
-	width:452px;
+	width:450px;
 }
 
 
