@@ -21,6 +21,8 @@ background: linear-gradient(rgba(255,255,255,0.95) 0px,rgba(255,255,255,0.85) 95
 
 min-width: 1020px;
 height: 110px;
+box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+border-bottom: 1px solid #fff;
 }
 
 .main-nav{
@@ -286,9 +288,10 @@ color:white;
 
 
 .main-contacto{
-	background: #331fa1;
-	height: 200px;
-
+background: #331fa1;
+height: 200px;
+box-shadow: 0 -4px 9px rgba(0,0,0,0.2);
+border-top: 0px solid #fff;
 }
 
 .ul-contacto{
