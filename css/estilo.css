@@ -269,10 +269,10 @@ opacity: 1;
 }
 /* High Command */
 .main-highcommand{
-	height: 530px;
+	height: 750px;
 	background: rgba(78,208,137,0.85);
 	margin: 0 auto;
-	padding: 10px auto 10px;
+	padding: 30px 0px 0px 0px;
 }
 /* Comites */
 .main-comites{
