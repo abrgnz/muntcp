@@ -242,7 +242,7 @@ position: absolute;
 	color:#0f1299;
 }
 .click {
-height: 50px;
+height: 20px;
 margin: 0;
 padding: 15px 0;
 color:white;
@@ -271,6 +271,9 @@ color:white;
 	width:450px;
 	background:white;
 	z-index: 1;
+box-shadow:inset 1px 3px 13px 2px #c0bfbf;
+-webkit-box-shadow:inset 1px 3px 13px 2px #c0bfbf;
+   -moz-box-shadow: inset 1px 3px 13px 2px #c0bfbf;
 }
 
 
