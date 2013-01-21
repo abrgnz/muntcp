@@ -9,7 +9,7 @@ body, html{
 	padding: 0;
 }
 /* Navegación */
-.main-header{
+.main-head1{
 	background: #eee;
 background: rgba(255,255,255,0.95);
 background: -webkit-gradient(linear, 50% 0%, 50% 95, color-stop(0%, rgba(255,255,255,0.95)), color-stop(100%, rgba(255,255,255,0.85)));
@@ -170,8 +170,102 @@ position: absolute;
 
 /* Nosotros */
 .main-info{
-	height: 530px;
-	background: rgba(93,93,195,0.85);
+height: 516px;
+background: #000;
+position: relative;
+}
+.main-info h2, .main-info p, .main-info h3, .main-info h1 {
+color: #fff;
+}
+.slide-content p {
+margin: 10px 0 20px;
+}
+.slide {
+height: 516px;
+width: 100%;
+text-align: center;
+position: absolute;
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+opacity: 0;
+-webkit-transition: opacity 0.5s ease-in-out;
+-moz-transition: opacity 0.5s ease-in-out;
+-o-transition: opacity 0.5s ease-in-out;
+transition: opacity 0.5s ease-in-out;
+}
+
+.about-slide1 {
+background-image: url('../img/slideshow/onu.jpeg');
+
+
+}
+.about-slide2 {
+background-image: url("../img/slideshow/mun.jpeg");
+
+
+}
+.about-slide3 {
+background-image: url("../img/slideshow/nosotros.jpeg");
+
+}
+.gallery-left-arrow {
+background-position: 0 -593px;
+height: 42px;
+width: 42px;
+margin-left: -50px;
+position: absolute;
+bottom: 4px;
+left: 49%;
+display: block;
+opacity: 0.4;
+background: url('../img/slideshow/prev.png') no-repeat;
+}
+.gallery-left-arrow:hover,.gallery-right-arrow:hover {
+	opacity: 1;
+}
+.gallery-right-arrow {
+background-position: 0 -549px;
+height: 42px;
+width: 42px;
+margin-left: 10px;
+position: absolute;
+bottom: 4px;
+left: 53%;
+display: block;
+opacity: 0.4;
+background: url('../img/slideshow/next.png') no-repeat;
+}
+
+.slideshow {
+position: relative;
+height: 516px;
+list-style: none;
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+font-size: 100%;
+vertical-align: baseline;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.slide-content {
+position: absolute;
+bottom: 0;
+left: 50%;
+display: block;
+width: 800px;
+margin-left: -435px;
+padding: 10px 40px 40px;
+background: rgba(0,0,0,0.85);
+
+}
+.selected {
+opacity: 1;
 }
 /* High Command */
 .main-highcommand{
@@ -329,6 +423,7 @@ border-top: 0px solid #fff;
 	min-height: 700px;
 	height:100%;
 	margin: 0 auto;
+	background: url('../img/prueba1.png') repeat-x;
 }
 
 .ul-seccion{
@@ -382,6 +477,31 @@ border-top: 0px solid #fff;
 	color:black;
 		background: url("../img/cross.png");
 			text-decoration: none;
+
+}
+
+.actividades{
+	list-style-type: none;
+}
+
+.contenedoor{
+	width: 1230px;
+	margin: 0px auto;
+}
+
+.horario {
+background-color: #FFF;
+border: 1px solid #b6b7b8;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+display: inline-block;
+margin: 30px 15px 0;
+padding: 10px 0 20px;
+position: relative;
+vertical-align: top;
+width: 374px;
+text-align: center;
 
 }
 
