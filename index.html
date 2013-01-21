@@ -5,10 +5,18 @@
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
 <link rel="stylesheet" type="text/css" href="css/estilo.css">
 <link rel="shortcut icon" type="image/jpeg" href="img/faviconmun.jpg" />
-    <script src="js/jquery-1.9.0.min.js"></script>
-        <script src="js/bjqs-1.3.js"></script>
-                <script src="js/bjqs-1.3.min.js"></script>
-        <script src="js/libs/jquery.secret-source.min.js"></script>
+    <!-- bjqs.css contains the *essential* css needed for the slider to work -->
+    <link rel="stylesheet" href="css/bjqs.css">
+
+    <!-- some pretty fonts for this demo page - not required for the slider -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:300' rel='stylesheet' type='text/css'> 
+
+    <!-- demo.css contains additional styles used to set up this demo page - not required for the slider --> 
+    <link rel="stylesheet" href="css/demo.css">
+
+    <!-- load jQuery and the plugin -->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
 <script>
 	$(document).ready(function(){
 /////////////////////////////
@@ -120,63 +128,30 @@
 	</section>
 	
 	<section id="high-command" class="main-highcommand"><!-- High Command -->
-          <div id="banner-fade">
+      <div id="banner-fade">
 
-        <ul class="bjqs">
-          <li><img src="img/high/1.JPG" ></li>
-          <li><img src="img/high/2.JPG" ></li>
-          <li><img src="img/high/3.JPG" ></li>
-          <li><img src="img/high/4.JPG" ></li>
+        <!-- start Basic Jquery Slider -->
+        <ul class="bjqs">
+          <li><img src="img/high/1.jpg" title="Automatically generated caption"></li>
+          <li><img src="img/high/2.jpg" title="Automatically generated caption"></li>
+          <li><img src="img/high/3.jpg" title="Automatically generated caption"></li>
+        </ul>
+        <!-- end Basic jQuery Slider -->
 
-          <li><img src="img/high/5.JPG" ></li>
+      </div>
+      <!-- End outer wrapper -->
 
-          <li><img src="img/high/6.JPG" ></li>
+      <script class="secret-source">
+        jQuery(document).ready(function($) {
 
-          <li><img src="img/high/7.JPG" ></li>
+          $('#banner-fade').bjqs({
+            height      : 500,
+            width       : 620,
+            responsive  : true
+          });
 
-          <li><img src="img/high/8.JPG" ></li>
-
-          <li><img src="img/high/9.JPG" ></li>
-
-          <li><img src="img/high/10.JPG" ></li>
-
-          <li><img src="img/high/11.JPG" ></li>
-
-          <li><img src="img/high/12.JPG" ></li>
-
-          <li><img src="img/high/13.JPG" ></li>
-
-          <li><img src="img/high/14.JPG" ></li>
-
-          <li><img src="img/high/15.JPG" ></li>
-
-          <li><img src="img/high/16.JPG" ></li>
-
-          <li><img src="img/high/17.JPG" ></li>
-
-          <li><img src="img/high/18.JPG" ></li>
-
-          <li><img src="img/high/19.JPG" ></li>
-          
-          <li><img src="img/high/20.JPG" ></li>
-
-          <li><img src="img/high/21.JPG" ></li>
-
-        </ul>
-              </div>
-
-    </section>
-          <script class="secret-source">
-        jQuery(document).ready(function(cash) {
-
-          $('#banner-fade').bjqs({
-            height      : 1152,
-            width       : 1728,
-            responsive  : true
-          });
-
-        });
-      </script>
+        });
+      </script>
 
 </div>
 
