@@ -164,12 +164,6 @@ display: block;
 position: absolute;
 }
 
-/* Secciones Main */
-
-/* Wrapper */
-.main-content{
-
-}
 
 /* Nosotros */
 .main-info{
@@ -187,25 +181,7 @@ position: absolute;
 	background: rgba(162,172,54,0.85);
 }
 
-/* Contacto */
-.main-contacto{
-}
 
-/* Pagina Agenda */
-
-/* wrapper */
-.agenda-content{
-	
-}
-
-.agenda-seccion{
-	
-}
-
-
-/* Pagina Descarga */
-
-/* wrapper */
 .descarga-content{
 	width: 100%;
 	height: 100%;
@@ -285,19 +261,91 @@ position: absolute;
 
 
 
+.main-contacto{
+	background: #331fa1;
+	height: 200px;
 
+}
 
-/* Pagina Patrocinio */
+.ul-contacto{
+	list-style: none;
+	width:600px;
+	text-align: center;
+	padding:70px 0;
+	margin:0 auto;
+}
+.ul-contacto li {
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin: 0px;
+	text-align: center;
+}
 
-/* wrapper */
+.img-contacto{
+	width: 70px;
+	height: 70px;
+}
+
 .patrocinio-content{
-	
+	width: 100%;
+	height:100%;
+	margin: 0 auto;
 }
 
-.patrocinio-seccion{
-
+.ul-seccion{
+	list-style: none;
+	width:930px;
+	margin: 0 auto;
 }
 
+.ul-seccion li{
+	width:300px;
+	height: 200px;
+	float: left;
+	margin: 30px 5px 0px 5px;
+}
+
+.figure-seccion{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+
+
+
+.patrocinio-caption:hover{
+	opacity: 1;
+	display: block;
+	background: url(../img/degradado2.png);
+	color:white;
+	text-decoration: none;
+}
+
+
+.img-patrocinio{
+	width: 150px;
+	height: 150px;
+	display: block;
+	float:left;
+	margin: -94px 0px 0px -147px;
+}
+
+
+
+
+.patrocinio-caption{
+	width: 150px;
+	height: 75px;
+	padding-top: 75px;
+	text-align: center;
+	float:right;
+	color:black;
+		background: url("../img/cross.png");
+			text-decoration: none;
+
+}
 
 /* FONTS */
 
@@ -313,4 +361,6 @@ position: absolute;
     font-style: normal;
 
 }
+
+
 
