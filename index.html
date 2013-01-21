@@ -5,6 +5,54 @@
 
 <link rel="stylesheet" type="text/css" href="css/estilo.css">
 <link rel="shortcut icon" type="image/jpeg" href="img/faviconmun.jpg" />
+    <script src="../js/jquery-1.9.0.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+/////////////////////////////
+// Generic Slideshow
+/////////////////////////////
+  //setup base slideshow vars
+  var slideshow = $('.slideshow'),
+  count = slideshow.find('.slide').length,
+  selected = slideshow.find('.selected');
+
+  //add slideshow controls to DOM
+  $('<i/>').addClass('gallery-left-arrow').appendTo(slideshow);
+  $('<i/>').addClass('gallery-right-arrow').appendTo(slideshow);
+
+  //add control vars
+  var previous = slideshow.find('.gallery-left-arrow'),
+  next = slideshow.find('.gallery-right-arrow');
+
+  //update selected
+  var setSelected = function(){
+    selected.removeClass('selected');
+    selected = slideshow.find('.selected');
+  };
+
+  // next click handler
+  next.click(function(){
+    if(selected.index() == count-1){
+      slideshow.find('li:first').addClass('selected');
+    } else {
+      selected.next().addClass('selected');
+    }
+    setSelected();
+  });
+
+  //previous click handler
+  previous.click(function(){
+    if(selected.index() === 0){
+      slideshow.find('li:last').addClass('selected');
+    } else {
+      selected.prev().addClass('selected');
+    }
+    setSelected();
+  });
+}
+</script>
+<meta name="description" content="Modelo de Naciones Unidas Tec Campus Puebla 2013.">
 </head>
 
 <body>
