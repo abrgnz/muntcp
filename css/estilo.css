@@ -170,7 +170,8 @@ position: absolute;
 
 /* Nosotros */
 .main-info{
-height: 516px;
+height:100%;
+min-height: 716px;
 background: #000;
 position: relative;
 }
@@ -269,10 +270,10 @@ opacity: 1;
 }
 /* High Command */
 .main-highcommand{
-	height: 900px;
+	height: 800px;
 	background: #593ff3;
 	margin: 0 auto;
-	padding: 30px 0px 0px 0px;
+	padding: 100px 0px 0px 0px;
 }
 /* Comites */
 .main-comites{
