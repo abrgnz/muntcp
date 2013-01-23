@@ -323,7 +323,7 @@ top: 20px;
 
 
 .descarga-topicos li:hover{
-	background: #6999cf;
+	background: #0f1299;
 	
 }
 
@@ -332,10 +332,12 @@ top: 20px;
 
 
 .descarga-topicos li{
+padding: 0px 10px 0px 10px;
+
 	margin: 0;
 	width: 700px;
 	height:65px;
-	background:rgba(201,52,52,0.47);
+	background:#0f1299;
 	float: left;
 	position: relative;
 	text-align: center;
@@ -344,7 +346,7 @@ top: 20px;
 	color:#0f1299;
 }
 .click {
-font-size: 12px;
+font-size: 13px;
 background: white;
 height: 65px;
 width: 700px;
@@ -360,7 +362,7 @@ color:#0f1299;
 	text-align: center;
 	margin: 0;
 	height:65px;
-	width:700px;
+	width:720px;
 	background:#240da9;
 	z-index: 1;
 }
