@@ -345,6 +345,31 @@ padding: 0px 10px 0px 10px;
 .click:hover{
 	color:#0f1299;
 }
+
+.descarga_h{
+margin: 30px auto 0px;
+top: 20px;
+}
+
+.descarga_h:hover{
+margin: 30px auto 0px;
+top: 20px;
+color:#0f1299;
+}
+
+.descargas_i {
+text-align: center;
+width: 273px;
+font-size: 14px;
+position: absolute;
+top: 115px;
+right: 52px;
+}
+
+.descargas_i a {
+	text-decoration: none;
+	color:black;
+}
 .click {
 font-size: 13px;
 background: white;
