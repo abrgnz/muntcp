@@ -203,8 +203,12 @@ background-image: url('../img/slideshow/onu.jpeg');
 
 
 }
+
+.patrocinios{
+	visibility: hidden;
+}
 .about-slide2 {
-background-image: url("../img/slideshow/mun.jpeg");
+background-image: url("../img/slideshow/mun.png");
 
 
 }
@@ -270,7 +274,7 @@ opacity: 1;
 }
 /* High Command */
 .main-highcommand{
-	height: 930px;
+	height: 800px;
 	background: #593ff3;
 	margin: 0 auto;
 	padding: 100px 0px 0px 0px;
