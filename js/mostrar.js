@@ -6,7 +6,7 @@ function mostrar (caso)
 	
 	
 	
-	for(var i=1;i<=14;i++){
+	for(var i=1;i<=22;i++){
 		if (id!='comite'+i)
 		{
 			a = document.getElementById('comite'+i);
@@ -19,7 +19,7 @@ function mostrar (caso)
 
 function show () 
 {
-	for(var i=1;i<=14;i++)
+	for(var i=1;i<=22;i++)
 	{
 			a = document.getElementById('comite'+i);
 			a.style.display= 'block';

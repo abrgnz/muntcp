@@ -290,7 +290,7 @@ top: 20px;
 
 .descarga-content{
 	width: 100%;
-	height: 1200px;
+	height: 1850px;
 
 	background:white;
 }
@@ -304,9 +304,9 @@ top: 20px;
 }
 
 .descarga-topicos{
-	margin: 95px auto 0px;
+	margin: 0px auto 0px;
 	padding: 0;
-	width: 700px;
+	width: 720px;
 	list-style: none;
 	font-family: "nevis";
 	display: inline-block;
@@ -323,7 +323,7 @@ top: 20px;
 
 
 .descarga-topicos li:hover{
-	background: #0f1299;
+	background: white;
 	
 }
 
@@ -337,7 +337,7 @@ padding: 0px 10px 0px 10px;
 	margin: 0;
 	width: 700px;
 	height:65px;
-	background:#0f1299;
+	background:white;
 	float: left;
 	position: relative;
 	text-align: center;
@@ -348,7 +348,7 @@ padding: 0px 10px 0px 10px;
 .click {
 font-size: 13px;
 background: white;
-height: 65px;
+height: 35px;
 width: 700px;
 margin: 0;
 padding: 15px 0;
